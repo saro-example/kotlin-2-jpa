@@ -8,6 +8,18 @@
 # Spring
 - 우선 [Basic](https://github.com/saro-example/kotlin-vue--basic) 과정을 완료 한 후 시작 권장
 
+### 개발환경
+* IDE : IntelliJ IDEA (Ultimate, Community)
+  * https://www.jetbrains.com/idea/download/#section=windows
+    * 커뮤니티 버전 무료 이용가능
+  * 인텔리제이에서 Project From Version Control 을 통해 git을 받습니다.
+* charset
+  * 글자가 깨질경우 -Dfile.encoding=UTF-8 옵션을 추가합니다.
+  * IntelliJ 기준 Help -> Edit Custom VM Options
+* java 설정 : kotlin jdk 11
+  * 컴파일이 되지않는경우
+    * File -> Project Structure -> Project 에서 jdk 11
+
 
 ### 실행
 각 IDE에서 실행하거나 직접 gradle wrapper를 이용하여 실행
