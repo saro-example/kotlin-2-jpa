@@ -43,4 +43,4 @@ gradlew bootRun
 
 #### 테스트
 * [list.http](https://github.com/saro-example/kotlin-vue--spring/blob/main/src/test/kotlin/jpa/board/list.http)
-* [create.http](https://github.com/saro-example/kotlin-vue--spring/blob/main/src/test/kotlin/jpa/board/add.http)
+* [create.http](https://github.com/saro-example/kotlin-vue--spring/blob/main/src/test/kotlin/jpa/board/create.http)
