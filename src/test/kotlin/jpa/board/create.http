@@ -1,0 +1,4 @@
+POST localhost:8001/api/board
+Content-type: application/json
+
+{"name": "박용서", "password": "password", "content": "내용"}

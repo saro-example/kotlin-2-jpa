@@ -15,5 +15,5 @@ class BoardController(
     fun getList() = boardService.getList()
 
     @PostMapping
-    fun addArticle(@Valid @RequestBody boardRequest: BoardRequest) = boardService.addArticle(boardRequest)
+    fun createArticle(@Valid @RequestBody boardRequest: BoardRequest) = boardService.createArticle(boardRequest)
 }

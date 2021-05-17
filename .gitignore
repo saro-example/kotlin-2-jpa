@@ -6,8 +6,8 @@ build/
 !**/src/test/**/build/
 
 ### local-db ###
-jpa-local.lock.db
-jpa-local.mv.db
+db-local.lock.db
+db-local.mv.db
 
 ### STS ###
 .apt_generated
