@@ -19,7 +19,7 @@ class BoardService(
     fun getList() = boardRepository.findAllByOrderByIdDesc().map { BoardDto(it) }
 
     fun createArticle(r: BoardRequest): ResultStatus {
-        boardRepository.save(Board(name=r.name, password = r.password, content = r.content, ip = request.remoteAddr))
+        boardRepository.save(Board(name=r.name, content = r.content, ip = request.remoteAddr))
         return ResultStatus("OK")
     }
 }
