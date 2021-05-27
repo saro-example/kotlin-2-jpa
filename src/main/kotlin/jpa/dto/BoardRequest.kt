@@ -8,9 +8,6 @@ data class BoardRequest (
         @field:Size(max = 16, message = "이름은 16자 이하로 입력해주세요.")
         var name: String = "",
 
-        @field:NotBlank(message = "암호를 입력해주세요.")
-        var password: String = "",
-
         @field:Size(max = 120, message = "내용은 120자 이하로 입력해주세요.")
         @field:NotBlank(message = "내용을 입력해주세요.")
         var content: String = ""
